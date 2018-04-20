@@ -9,6 +9,7 @@ image_resource:
 
 inputs:
 - name: concourse-demo-java-service
+
 outputs:
 - name: artifacts
   path: target/

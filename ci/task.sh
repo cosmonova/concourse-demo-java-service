@@ -2,4 +2,4 @@
 
 mvn install
 # Move target for output
-mv target/ ../
+cp -r target/ ../

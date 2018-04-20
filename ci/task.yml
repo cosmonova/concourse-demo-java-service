@@ -9,7 +9,9 @@ image_resource:
 
 inputs:
 - name: concourse-demo-java-service
-
+outputs:
+  name: tartifacts
+  path: target/
 run:
   path: ci/task.sh
   dir: concourse-demo-java-service

@@ -8,11 +8,11 @@ image_resource:
     tag: 3.3.9-jdk-8
 
 inputs:
-- name: concourse-demo-java-service
+- name: java-service
 
 outputs:
 - name: artifacts
   path: target/
 run:
   path: ci/task.sh
-  dir: concourse-demo-java-service
+  dir: java-service

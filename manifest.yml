@@ -1,3 +1,4 @@
 ---
 applications:
 - name: concourse-demo-java
+  memory: 256M

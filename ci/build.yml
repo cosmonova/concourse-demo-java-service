@@ -9,7 +9,6 @@ image_resource:
 
 inputs:
 - name: java-service
-- name: java-tag
 
 outputs:
 - name: artifacts

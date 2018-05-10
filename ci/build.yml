@@ -15,5 +15,5 @@ outputs:
 - name: artifacts
   path: target/
 run:
-  path: ci/task.sh
+  path: ci/build.sh
   dir: java-service

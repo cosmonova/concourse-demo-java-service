@@ -12,7 +12,7 @@ inputs:
 
 outputs:
 - name: artifacts
-  path: target/
+
 run:
   path: ci/build.sh
   dir: java-service

@@ -14,7 +14,7 @@ outputs:
 - name: artifacts
 
 caches:
-  - path: .m2/
+  - path: java-service/.m2/
 
 run:
   path: ci/build.sh

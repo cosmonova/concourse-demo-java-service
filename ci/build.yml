@@ -13,6 +13,9 @@ inputs:
 outputs:
 - name: artifacts
 
+caches:
+  - path: .m2/
+
 run:
   path: ci/build.sh
   dir: java-service

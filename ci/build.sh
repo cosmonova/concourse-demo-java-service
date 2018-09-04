@@ -1,5 +1,7 @@
 #!/bin/bash -ex
 
+mkdir -p .m2/repository
+
 echo "Local repo" .m2/repository
 ls -l .m2/repository
 
